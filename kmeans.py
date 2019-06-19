@@ -33,43 +33,28 @@ def calcularCentro(cluster):
     return centro
 
 
-# Se lee el archivo con la entrada.
-print("Leyendo Dataset...")
-data = pd.read_csv("iris.data", sep=",", header=None)
+def KMeans(data, target, k=2):
 
+	# Iniciamos los centros a puntos aleatorios del conjunto de datos
+	centros = [ np.ndarray.tolist(data.iloc[randint(0,len(data)-1)].values) for i in range(k) ]
 
-# Separamos el target y lo transformamos a String.
-target = pd.DataFrame(data.iloc[:,-1]).astype(str)
-data = data.drop(data.columns[-1], axis=1)
+	# Iteramos hasta que los centros no cambien
+	centrosCambian = True
+	while(centrosCambian):
+	    centrosCambian = False
 
-# Numero de clusters
-k = 2
-# Iniciamos los centros a puntos aleatorios del conjunto de datos
-centros = []
-for i in range(k):
-    centros.append(np.ndarray.tolist(data.iloc[randint(0,len(data)-1)].values))
+	    clusters = [ [] for i in range(k) ]
 
+	    # Calculo el cluster al que pertenece cada dato
+	    for dato in range(len(data)):
+	        cluster = calcularCluster(data.iloc[dato], centros)
+	        clusters[cluster].append(data.iloc[dato])
 
-# iteramos hasta que los centros no cambien
-centrosCambian = True
-while(centrosCambian):
-    centrosCambian = False
+	    # Recalculo los centros
+	    nuevosCentros = [ calcularCentro(cluster) for cluster in clusters ]
 
-    clusters = []
-    for i in range(k):
-        clusters.append([])
+	    if nuevosCentros != centros:
+	        centrosCambian = True
+	        centros = nuevosCentros
 
-    # Calculo el cluster al que pertenece cada dato
-    for dato in range(len(data)):
-        cluster = calcularCluster(data.iloc[dato], centros)
-        clusters[cluster].append(data.iloc[dato])
-
-    # Recalculo los centros
-    nuevosCentros = []
-    for cluster in clusters:
-        nuevosCentros.append(calcularCentro(cluster))
-
-    if nuevosCentros != centros:
-        centrosCambian = True
-        centros = nuevosCentros
-
+	return clusters
