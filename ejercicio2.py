@@ -9,7 +9,7 @@ data = pd.read_csv("iris.data", sep=",", header=None)
 target = pd.DataFrame(data.iloc[:,-1]).astype(str)
 data = data.drop(data.columns[-1], axis=1)
 
-clusters = KMeans(data, target, k=5)
+clusters, _ = KMeans(data, k=5)
 
 # print(clusters)
 

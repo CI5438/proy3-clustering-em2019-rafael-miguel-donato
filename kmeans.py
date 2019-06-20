@@ -36,7 +36,7 @@ def calcularCentro(cluster, centroActual):
     else:
         return centroActual
 
-def KMeans(data, target, k=2):
+def KMeans(data, k=2):
 
 	# Iniciamos los centros a puntos aleatorios del conjunto de datos
 	centros = [ np.ndarray.tolist(data.iloc[randint(0,len(data)-1)].values) for i in range(k) ]
@@ -60,4 +60,4 @@ def KMeans(data, target, k=2):
 	        centrosCambian = True
 	        centros = nuevosCentros
 
-	return clusters
+	return clusters, centros
