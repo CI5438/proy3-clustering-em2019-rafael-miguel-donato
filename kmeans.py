@@ -23,15 +23,18 @@ def calcularCluster(punto, centros):
     return cluster
 
 # Calcular el centro de un cluster
-def calcularCentro(cluster):
+def calcularCentro(cluster, centroActual):
     centro = []
-    for i in range(len(cluster[0])):
-        punto = 0
-        for k in range(len(cluster)):
-            punto += cluster[k][i]
-        centro.append(punto/len(cluster))
-    return centro
-
+    if len(cluster) > 0:
+        for i in range(len(cluster[0])):
+            punto = 0
+            for k in range(len(cluster)):
+                punto += cluster[k][i]
+            centro.append(punto/len(cluster))
+        return centro
+    # Si el cluster esta vacio
+    else:
+        return centroActual
 
 def KMeans(data, target, k=2):
 
@@ -51,7 +54,7 @@ def KMeans(data, target, k=2):
 	        clusters[cluster].append(data.iloc[dato])
 
 	    # Recalculo los centros
-	    nuevosCentros = [ calcularCentro(cluster) for cluster in clusters ]
+	    nuevosCentros = [ calcularCentro(clusters[cluster], centros[cluster]) for cluster in range(len(clusters)) ]
 
 	    if nuevosCentros != centros:
 	        centrosCambian = True

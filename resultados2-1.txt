@@ -1,0 +1,29 @@
+resultados 2.1
+k=2
+{'clusters_0': {'Iris-setosa': 0, 'Iris-versicolor': 47, 'Iris-virginica': 50}, 'clusters_1': {'Iris-setosa': 50, 'Iris-versicolor': 3, 'Iris-virginica': 0}}
+{'clusters_0': {'Iris-setosa': 0, 'Iris-versicolor': 47, 'Iris-virginica': 50}, 'clusters_1': {'Iris-setosa': 50, 'Iris-versicolor': 3, 'Iris-virginica': 0}}
+{'clusters_0': {'Iris-setosa': 0, 'Iris-versicolor': 47, 'Iris-virginica': 50}, 'clusters_1': {'Iris-setosa': 50, 'Iris-versicolor': 3, 'Iris-virginica': 0}}
+{'clusters_0': {'Iris-setosa': 50, 'Iris-versicolor': 3, 'Iris-virginica': 0}, 'clusters_1': {'Iris-setosa': 0, 'Iris-versicolor': 47, 'Iris-virginica': 50}}
+{'clusters_0': {'Iris-setosa': 50, 'Iris-versicolor': 3, 'Iris-virginica': 0}, 'clusters_1': {'Iris-setosa': 0, 'Iris-versicolor': 47, 'Iris-virginica': 50}}
+
+k=3
+{'clusters_0': {'Iris-setosa': 0, 'Iris-versicolor': 46, 'Iris-virginica': 50}, 'clusters_1': {'Iris-setosa': 20, 'Iris-versicolor': 4, 'Iris-virginica': 0}, 'clusters_2': {'Iris-setosa': 30, 'Iris-versicolor': 0, 'Iris-virginica': 0}}
+{'clusters_0': {'Iris-setosa': 30, 'Iris-versicolor': 0, 'Iris-virginica': 0}, 'clusters_1': {'Iris-setosa': 20, 'Iris-versicolor': 4, 'Iris-virginica': 0}, 'clusters_2': {'Iris-setosa': 0, 'Iris-versicolor': 46, 'Iris-virginica': 50}}
+{'clusters_0': {'Iris-setosa': 0, 'Iris-versicolor': 2, 'Iris-virginica': 36}, 'clusters_1': {'Iris-setosa': 50, 'Iris-versicolor': 0, 'Iris-virginica': 0}, 'clusters_2': {'Iris-setosa': 0, 'Iris-versicolor': 48, 'Iris-virginica': 14}}
+{'clusters_0': {'Iris-setosa': 28, 'Iris-versicolor': 3, 'Iris-virginica': 0}, 'clusters_1': {'Iris-setosa': 0, 'Iris-versicolor': 47, 'Iris-virginica': 50}, 'clusters_2': {'Iris-setosa': 22, 'Iris-versicolor': 0, 'Iris-virginica': 0}}
+{'clusters_0': {'Iris-setosa': 0, 'Iris-versicolor': 48, 'Iris-virginica': 14}, 'clusters_1': {'Iris-setosa': 50, 'Iris-versicolor': 0, 'Iris-virginica': 0}, 'clusters_2': {'Iris-setosa': 0, 'Iris-versicolor': 2, 'Iris-virginica': 36}}
+
+k=4
+{'clusters_0': {'Iris-setosa': 0, 'Iris-versicolor': 47, 'Iris-virginica': 14}, 'clusters_1': {'Iris-setosa': 23, 'Iris-versicolor': 0, 'Iris-virginica': 0}, 'clusters_2': {'Iris-setosa': 27, 'Iris-versicolor': 0, 'Iris-virginica': 0}, 'clusters_3': {'Iris-setosa': 0, 'Iris-versicolor': 3, 'Iris-virginica': 36}}
+{'clusters_0': {'Iris-setosa': 33, 'Iris-versicolor': 0, 'Iris-virginica': 0}, 'clusters_1': {'Iris-setosa': 0, 'Iris-versicolor': 3, 'Iris-virginica': 36}, 'clusters_2': {'Iris-setosa': 17, 'Iris-versicolor': 0, 'Iris-virginica': 0}, 'clusters_3': {'Iris-setosa': 0, 'Iris-versicolor': 47, 'Iris-virginica': 14}}
+{'clusters_0': {'Iris-setosa': 0, 'Iris-versicolor': 0, 'Iris-virginica': 23}, 'clusters_1': {'Iris-setosa': 50, 'Iris-versicolor': 0, 'Iris-virginica': 0}, 'clusters_2': {'Iris-setosa': 0, 'Iris-versicolor': 29, 'Iris-virginica': 1}, 'clusters_3': {'Iris-setosa': 0, 'Iris-versicolor': 21, 'Iris-virginica': 26}}
+{'clusters_0': {'Iris-setosa': 0, 'Iris-versicolor': 47, 'Iris-virginica': 14}, 'clusters_1': {'Iris-setosa': 0, 'Iris-versicolor': 3, 'Iris-virginica': 36}, 'clusters_2': {'Iris-setosa': 27, 'Iris-versicolor': 0, 'Iris-virginica': 0}, 'clusters_3': {'Iris-setosa': 23, 'Iris-versicolor': 0, 'Iris-virginica': 0}}
+{'clusters_0': {'Iris-setosa': 0, 'Iris-versicolor': 23, 'Iris-virginica': 17}, 'clusters_1': {'Iris-setosa': 0, 'Iris-versicolor': 0, 'Iris-virginica': 32}, 'clusters_2': {'Iris-setosa': 0, 'Iris-versicolor': 27, 'Iris-virginica': 1}, 'clusters_3': {'Iris-setosa': 50, 'Iris-versicolor': 0, 'Iris-virginica': 0}}
+
+k=5
+{'clusters_0': {'Iris-setosa': 10, 'Iris-versicolor': 0, 'Iris-virginica': 0}, 'clusters_1': {'Iris-setosa': 0, 'Iris-versicolor': 47, 'Iris-virginica': 14}, 'clusters_2': {'Iris-setosa': 20, 'Iris-versicolor': 0, 'Iris-virginica': 0}, 'clusters_3': {'Iris-setosa': 0, 'Iris-versicolor': 3, 'Iris-virginica': 36}, 'clusters_4': {'Iris-setosa': 20, 'Iris-versicolor': 0, 'Iris-virginica': 0}}
+{'clusters_0': {'Iris-setosa': 0, 'Iris-versicolor': 2, 'Iris-virginica': 27}, 'clusters_1': {'Iris-setosa': 0, 'Iris-versicolor': 27, 'Iris-virginica': 1}, 'clusters_2': {'Iris-setosa': 0, 'Iris-versicolor': 21, 'Iris-virginica': 0}, 'clusters_3': {'Iris-setosa': 0, 'Iris-versicolor': 0, 'Iris-virginica': 22}, 'clusters_4': {'Iris-setosa': 50, 'Iris-versicolor': 0, 'Iris-virginica': 0}}
+{'clusters_0': {'Iris-setosa': 0, 'Iris-versicolor': 23, 'Iris-virginica': 13}, 'clusters_1': {'Iris-setosa': 0, 'Iris-versicolor': 27, 'Iris-virginica': 1}, 'clusters_2': {'Iris-setosa': 0, 'Iris-versicolor': 0, 'Iris-virginica': 24}, 'clusters_3': {'Iris-setosa': 50, 'Iris-versicolor': 0, 'Iris-virginica': 0}, 'clusters_4': {'Iris-setosa': 0, 'Iris-versicolor': 0, 'Iris-virginica': 12}}
+{'clusters_0': {'Iris-setosa': 17, 'Iris-versicolor': 0, 'Iris-virginica': 0}, 'clusters_1': {'Iris-setosa': 0, 'Iris-versicolor': 27, 'Iris-virginica': 1}, 'clusters_2': {'Iris-setosa': 0, 'Iris-versicolor': 0, 'Iris-virginica': 32}, 'clusters_3': {'Iris-setosa': 33, 'Iris-versicolor': 0, 'Iris-virginica': 0}, 'clusters_4': {'Iris-setosa': 0, 'Iris-versicolor': 23, 'Iris-virginica': 17}}
+{'clusters_0': {'Iris-setosa': 0, 'Iris-versicolor': 21, 'Iris-virginica': 26}, 'clusters_1': {'Iris-setosa': 26, 'Iris-versicolor': 0, 'Iris-virginica': 0}, 'clusters_2': {'Iris-setosa': 0, 'Iris-versicolor': 29, 'Iris-virginica': 1}, 'clusters_3': {'Iris-setosa': 24, 'Iris-versicolor': 0, 'Iris-virginica': 0}, 'clusters_4': {'Iris-setosa': 0, 'Iris-versicolor': 0, 'Iris-virginica': 23}}
+
